@@ -23,7 +23,7 @@ export let chatPage = /*html*/ `
             <div id="chat-text">chat content 1</div>
             <img src="https://media.defense.gov/2020/Feb/19/2002251686/700/465/0/200219-A-QY194-002.JPG" id="chat-ava">
             </div>
-            <div>chat content2</div>
+            <div id="bot-chat-text">chat content2</div>
             <div>chat content3</div>
             <div>chat content4</div>
 

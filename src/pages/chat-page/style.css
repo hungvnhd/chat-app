@@ -142,3 +142,7 @@ input[type="file"] {
     border-radius: 999px;
     
 }
+
+#bot-chat-text{
+    float: left;
+}
