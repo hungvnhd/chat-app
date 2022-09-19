@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chat-title{
+    background-color: #A31C24;
+    color:white;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    /* position: fixed;
+    width: 100%; */
+}
+.chat-parent{
+    display:flex;
+    height:100%;
+
+    
+}
+.chat-conversations{
+    width: 405px;
+    text-align: center;
+    border-right: 1px solid #E9E9E9;
+    height: 100vh;
+}
+.new-conversation{
+    width: 405px;
+    height:50px;
+    border:none;
+    border-bottom:1px solid #E9E9E9;
+    border-right: 1px solid #e9e9e9 ;
+    line-height: 50px;
+    background-color: white;
+}
+.new-conversation:hover{
+    cursor: pointer;
+}
+
+.first-conversation-parent{
+    width: 715px;
+    text-align: center;
+    border-right: 1px solid #E9E9E9;
+    height:100vh;
+    /* display:flex;
+    flex-direction: column-reverse; */
+}
+
+.first-conversation{
+    height: 50px;
+    border-bottom: 1px solid #E9E9E9;
+    line-height: 50px;
+    font-weight: 800;
+}
+.chat-input{
+    position: fixed;
+    bottom:0;
+    text-align: center;
+}
+.chat-input input{
+    width: 630px;
+    height: 50px;
+   
+
+}
+
+textarea:focus, input:focus{
+    outline-color: #015FCC;
+    
+}
+.chat-input button{
+    width:80px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+}
+
+#chat-information{
+    text-align:center;
+    width:405px
+}
+#chat-information img{
+    width: 75px;
+    height:75px;
+    border-radius: 50%;
+    
+    
+}
+#chat-display-name{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+#chat-messages{
+    height: 580px;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+    
+}
+#chat-messages img{
+    width: 40px;
+    height:40px;
+    
+}
+#chat-message-text{
+    height:40px;
+    line-height:40px;
+    display:flex;
+    /* background-color: dimgray; */
+    
+        /* background-color: #0084FF;
+        color:white; */
+    border-radius: 999px;
+}
+#chat-text {
+    padding-bottom: 30px;
+    background-color: #0084FF;
+    color:white;
+    border-radius: 999px;
+    
+}
